@@ -1,0 +1,67 @@
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: middle;
+}
+.logo{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    width: 10px;
+    height: auto;
+
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  width:100%;
+  color: #ff0000;
+}
+main {
+  padding: 15px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vb;
+  }
+  
+  input {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #661711;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 22px;
+    margin-bottom: 8px;
+    width: 400px;
+    font-weight:bold;
+    
+  }
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17vh;
+  }
+  
+  p {
+    font-size: 22px;
+    text-align: center;
+    color: #ff0000;
+  }
+  
